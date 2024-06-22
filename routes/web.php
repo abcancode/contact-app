@@ -17,7 +17,7 @@ Route::get('/', function () {
     
     Route::get('/contacts/create', function () {
     
-        return "<h1>Add new contact</h1>";
+        return view('contacts.create');;
     
     })->name('contacts.create');
     
